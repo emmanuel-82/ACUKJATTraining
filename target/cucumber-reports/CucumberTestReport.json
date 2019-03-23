@@ -1,0 +1,197 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "User navigates to Company home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 697056169,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the \"Company home\" page on URL \"www.mycomany.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Company home",
+                  "offset": 13
+                },
+                {
+                  "val": "www.mycomany.com",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginStepdefs.iAmOnThePageOnURL(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 302134,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see \"Log In as Employee\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log In as Employee",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStepdefs.iShouldSeeMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Successful login",
+        "description": "",
+        "id": "login-profile;successful-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 307776,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I fill in \"Username\" with \"Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Username",
+                  "offset": 11
+                },
+                {
+                  "val": "Test",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginStepdefs.iFillInWith(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 407290,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I fill in \"Password\" with \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password",
+                  "offset": 11
+                },
+                {
+                  "val": "123",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginStepdefs.iFillInWith(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1134669,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on the \"Log In\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log In",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginStepdefs.iClickOnTheButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1052595,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on the \"My profile\" page on URL \"www.mycompany.com/myprofile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "My profile",
+                  "offset": 13
+                },
+                {
+                  "val": "www.mycompany.com/myprofile",
+                  "offset": 38
+                }
+              ],
+              "location": "LoginStepdefs.iAmOnThePageOnURL(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1208022,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see \"Welcome to your profile\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome to your profile",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStepdefs.iShouldSeeMessage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1378839,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see the \"Log out\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log out",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepdefs.iShouldSeeTheButton(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login Profile",
+    "description": "As an employee of the company\r\nI want to login my employee profile using my credentials\r\nIn order to collaborate with my colleagues",
+    "id": "login-profile",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LoginProfile"
+      }
+    ]
+  }
+]
