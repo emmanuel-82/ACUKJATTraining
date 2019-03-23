@@ -26,7 +26,7 @@ public class LoginStepdefs {
 
     @And("^I click on the \"([^\"]*)\" button$")
     public void iClickOnTheButton(String arg0) throws Throwable {
-        System.out.println("This is my Fourth step");
+        System.out.println("This is my Fourth step in Automation Testing");
     }
 
     @And("^I should see the \"([^\"]*)\" button$")
