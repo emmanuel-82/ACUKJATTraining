@@ -43,7 +43,7 @@ formatter.match({
   "location": "LoginStepdefs.iAmOnThePageOnURL(String,String)"
 });
 formatter.result({
-  "duration": 697056169,
+  "duration": 274408107,
   "status": "passed"
 });
 formatter.match({
@@ -56,7 +56,7 @@ formatter.match({
   "location": "LoginStepdefs.iShouldSeeMessage(String)"
 });
 formatter.result({
-  "duration": 302134,
+  "duration": 922304,
   "status": "passed"
 });
 formatter.scenario({
@@ -111,7 +111,7 @@ formatter.match({
   "location": "LoginStepdefs.iFillInWith(String,String)"
 });
 formatter.result({
-  "duration": 307776,
+  "duration": 905377,
   "status": "passed"
 });
 formatter.match({
@@ -128,7 +128,7 @@ formatter.match({
   "location": "LoginStepdefs.iFillInWith(String,String)"
 });
 formatter.result({
-  "duration": 407290,
+  "duration": 1058239,
   "status": "passed"
 });
 formatter.match({
@@ -141,7 +141,7 @@ formatter.match({
   "location": "LoginStepdefs.iClickOnTheButton(String)"
 });
 formatter.result({
-  "duration": 1134669,
+  "duration": 1491692,
   "status": "passed"
 });
 formatter.match({
@@ -158,7 +158,7 @@ formatter.match({
   "location": "LoginStepdefs.iAmOnThePageOnURL(String,String)"
 });
 formatter.result({
-  "duration": 1052595,
+  "duration": 1960025,
   "status": "passed"
 });
 formatter.match({
@@ -171,7 +171,7 @@ formatter.match({
   "location": "LoginStepdefs.iShouldSeeMessage(String)"
 });
 formatter.result({
-  "duration": 1208022,
+  "duration": 2318585,
   "status": "passed"
 });
 formatter.match({
@@ -184,7 +184,77 @@ formatter.match({
   "location": "LoginStepdefs.iShouldSeeTheButton(String)"
 });
 formatter.result({
-  "duration": 1378839,
+  "duration": 1291123,
+  "status": "passed"
+});
+formatter.uri("search.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Google Search",
+  "description": "  As a google search user\r\n  I want to search for information I need\r\n  So that I am  better Informed",
+  "id": "google-search",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 6,
+  "name": "Search for an item",
+  "description": "",
+  "id": "google-search;search-for-an-item",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 7,
+  "name": "I an on Google Search page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 8,
+  "name": "I enter a search term \"Java\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "I click on the search button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "I should be shown a list of results relating to my search term",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SearchStep.i_an_on_Google_Search_page()"
+});
+formatter.result({
+  "duration": 1325492,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Java",
+      "offset": 23
+    }
+  ],
+  "location": "SearchStep.i_enter_a_search_term(String)"
+});
+formatter.result({
+  "duration": 899734,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchStep.i_click_on_the_search_button()"
+});
+formatter.result({
+  "duration": 44115,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchStep.i_should_be_shown_a_list_of_results_relating_to_my_search_term()"
+});
+formatter.result({
+  "duration": 47706,
   "status": "passed"
 });
 });
