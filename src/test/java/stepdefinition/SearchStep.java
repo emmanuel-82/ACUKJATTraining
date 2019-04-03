@@ -3,17 +3,23 @@ package stepdefinition;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SearchStep {
 
     @Given("^I an on Google Search page$")
     public void i_an_on_Google_Search_page() throws Throwable {
-        System.out.println("This is it.");
-    }
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\TriNity\\IdeaProjects\\ACUKJATTraining\\Drivers\\chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.get("http://www.google.com");
+
+
+     }
 
     @When("^I enter a search term \"([^\"]*)\"$")
     public void i_enter_a_search_term(String arg1) throws Throwable {
-        System.out.println(arg1);
+        //System.out.println(arg1);
 
     }
 
