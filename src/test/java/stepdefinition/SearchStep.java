@@ -9,11 +9,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SearchStep {
-     WebDriver driver = null;
+    WebDriver driver = null;
     @Given("^I an on Google Search page$")
     public void i_an_on_Google_Search_page() throws Throwable {
         driver = new ChromeDriver();
-        //driver = new FirefoxDriver();
         driver.get("http://www.google.com");
      }
 
