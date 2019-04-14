@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
-              <span class="suite-name border-failed">Surefire suite</span>
+              <span class="suite-name border-passed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,21 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
-                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Surefire_suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestRunner" hash-for-method="feature(Google Search)">feature(Google Search)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -113,6 +99,11 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestRunner" hash-for-method="feature(Google Search)">feature(Google Search)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TestRunner" hash-for-method="feature(Login Profile)">feature(Login Profile)</a> <!-- method navigator-link -->
@@ -130,9 +121,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-failed">
+          <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">TestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -142,155 +133,10 @@
                   </a> <!-- feature(Google Search) -->
                   <span class="method-name">feature</span>
                   <span class="parameters">(Google Search)</span>
-                  <div class="stack-trace">cucumber.runtime.CucumberException: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
-ghtbulb.svg&quot;,&quot;48&quot;:&quot;icons/lightbulb.svg&quot;,&quot;96&quot;:&quot;icons/lightbulb.svg&quot;,&quot;128&quot;:&quot;icons/lightbulb.svg&quot;},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;location&quot;:&quot;app-system-defaults&quot;}
-1555173807447	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;webcompat@mozilla.org&quot;,&quot;syncGUID&quot;:&quot;{a0d39ca2-bca4-4e5a-ae7c-5124376227a4}&quot;,&quot;version&quot;:&quot;3.0.2&quot;,&quot;type&quot;:&quot;extension&quot;,&quot;loader&quot;:null,&quot;updateURL&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;optionsBrowserStyle&quot;:true,&quot;aboutURL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Web Compat&quot;,&quot;description&quot;:&quot;Urgent post-release fixes for web compatibility.&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;installDate&quot;:1554571702928,&quot;updateDate&quot;:1554571702928,&quot;applyBackgroundUpdates&quot;:1,&quot;path&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi&quot;,&quot;skinnable&quot;:false,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;toolkit@mozilla.org&quot;,&quot;minVersion&quot;:&quot;59.0b5&quot;,&quot;maxVersion&quot;:null}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;userPermissions&quot;:{&quot;permissions&quot;:[&quot;webRequest&quot;,&quot;webRequestBlocking&quot;],&quot;origins&quot;:[&quot;&lt;all_urls&gt;&quot;]},&quot;icons&quot;:{},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;location&quot;:&quot;app-system-defaults&quot;}
-1555173807447	addons.xpi-utils	DEBUG	Updating add-on states
-1555173807451	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
-1555173807454	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 35.0.0
-1555173807456	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 3.0.2
-1555173807459	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1555173807460	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1555173807460	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1555173807460	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1555173807461	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1555173807462	addons.manager	DEBUG	Starting provider: GMPProvider
-1555173807466	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1555173807467	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1555173807467	addons.manager	DEBUG	Starting provider: PluginProvider
-1555173807467	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1555173807467	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1555173807477	addons.manager	DEBUG	Completed startup sequence
-1555173809358	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 28
-1555173810094	addons.repository	DEBUG	No addons.json found.
-1555173812667	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\TriNity\AppData\Local\Temp\anonymous8253210130243637588webdriver-profile\extensions\webdriver-staging
-1555173812679	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1555173812680	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1555173812680	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
-1555173812681	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1555173812682	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2614: TypeError: addon is null
-1555173812866	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
-[Child 14696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
-[Child 14696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
-
-Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
-System info: host: &apos;DESKTOP-8L4ELD8&apos;, ip: &apos;192.168.15.204&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: FirefoxDriver
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at TestRunner.feature(TestRunner.java:31)
-Caused by: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
-ghtbulb.svg&quot;,&quot;48&quot;:&quot;icons/lightbulb.svg&quot;,&quot;96&quot;:&quot;icons/lightbulb.svg&quot;,&quot;128&quot;:&quot;icons/lightbulb.svg&quot;},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;location&quot;:&quot;app-system-defaults&quot;}
-1555173807447	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;webcompat@mozilla.org&quot;,&quot;syncGUID&quot;:&quot;{a0d39ca2-bca4-4e5a-ae7c-5124376227a4}&quot;,&quot;version&quot;:&quot;3.0.2&quot;,&quot;type&quot;:&quot;extension&quot;,&quot;loader&quot;:null,&quot;updateURL&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;optionsBrowserStyle&quot;:true,&quot;aboutURL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Web Compat&quot;,&quot;description&quot;:&quot;Urgent post-release fixes for web compatibility.&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;installDate&quot;:1554571702928,&quot;updateDate&quot;:1554571702928,&quot;applyBackgroundUpdates&quot;:1,&quot;path&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi&quot;,&quot;skinnable&quot;:false,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;toolkit@mozilla.org&quot;,&quot;minVersion&quot;:&quot;59.0b5&quot;,&quot;maxVersion&quot;:null}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;userPermissions&quot;:{&quot;permissions&quot;:[&quot;webRequest&quot;,&quot;webRequestBlocking&quot;],&quot;origins&quot;:[&quot;&lt;all_urls&gt;&quot;]},&quot;icons&quot;:{},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;location&quot;:&quot;app-system-defaults&quot;}
-1555173807447	addons.xpi-utils	DEBUG	Updating add-on states
-1555173807451	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
-1555173807454	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 35.0.0
-1555173807456	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 3.0.2
-1555173807459	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1555173807460	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1555173807460	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1555173807460	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1555173807461	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1555173807462	addons.manager	DEBUG	Starting provider: GMPProvider
-1555173807466	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1555173807467	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1555173807467	addons.manager	DEBUG	Starting provider: PluginProvider
-1555173807467	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1555173807467	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1555173807477	addons.manager	DEBUG	Completed startup sequence
-1555173809358	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 28
-1555173810094	addons.repository	DEBUG	No addons.json found.
-1555173812667	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\TriNity\AppData\Local\Temp\anonymous8253210130243637588webdriver-profile\extensions\webdriver-staging
-1555173812679	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1555173812680	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1555173812680	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
-1555173812681	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1555173812682	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2614: TypeError: addon is null
-1555173812866	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
-[Child 14696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
-[Child 14696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
-
-Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
-System info: host: &apos;DESKTOP-8L4ELD8&apos;, ip: &apos;192.168.15.204&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)
-	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:347)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:116)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:259)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:247)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:242)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:238)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
-	at stepdefinition.SearchStep.i_an_on_Google_Search_page(SearchStep.java:16)
-	at ✽.Given I an on Google Search page(search.feature:7)
-Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-ghtbulb.svg&quot;,&quot;48&quot;:&quot;icons/lightbulb.svg&quot;,&quot;96&quot;:&quot;icons/lightbulb.svg&quot;,&quot;128&quot;:&quot;icons/lightbulb.svg&quot;},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;location&quot;:&quot;app-system-defaults&quot;}
-1555173807447	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;webcompat@mozilla.org&quot;,&quot;syncGUID&quot;:&quot;{a0d39ca2-bca4-4e5a-ae7c-5124376227a4}&quot;,&quot;version&quot;:&quot;3.0.2&quot;,&quot;type&quot;:&quot;extension&quot;,&quot;loader&quot;:null,&quot;updateURL&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;optionsBrowserStyle&quot;:true,&quot;aboutURL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Web Compat&quot;,&quot;description&quot;:&quot;Urgent post-release fixes for web compatibility.&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;installDate&quot;:1554571702928,&quot;updateDate&quot;:1554571702928,&quot;applyBackgroundUpdates&quot;:1,&quot;path&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi&quot;,&quot;skinnable&quot;:false,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;toolkit@mozilla.org&quot;,&quot;minVersion&quot;:&quot;59.0b5&quot;,&quot;maxVersion&quot;:null}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;userPermissions&quot;:{&quot;permissions&quot;:[&quot;webRequest&quot;,&quot;webRequestBlocking&quot;],&quot;origins&quot;:[&quot;&lt;all_urls&gt;&quot;]},&quot;icons&quot;:{},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;location&quot;:&quot;app-system-defaults&quot;}
-1555173807447	addons.xpi-utils	DEBUG	Updating add-on states
-1555173807451	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
-1555173807454	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 35.0.0
-1555173807456	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 3.0.2
-1555173807459	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1555173807460	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1555173807460	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1555173807460	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1555173807461	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1555173807462	addons.manager	DEBUG	Starting provider: GMPProvider
-1555173807466	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1555173807467	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1555173807467	addons.manager	DEBUG	Starting provider: PluginProvider
-1555173807467	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1555173807467	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1555173807477	addons.manager	DEBUG	Completed startup sequence
-1555173809358	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 28
-1555173810094	addons.repository	DEBUG	No addons.json found.
-1555173812667	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\TriNity\AppData\Local\Temp\anonymous8253210130243637588webdriver-profile\extensions\webdriver-staging
-1555173812679	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1555173812680	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1555173812680	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
-1555173812681	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1555173812682	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2614: TypeError: addon is null
-1555173812866	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
-[Child 14696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
-[Child 14696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
-
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
-	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:347)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:116)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:259)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:247)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:242)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:238)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
-	at stepdefinition.SearchStep.i_an_on_Google_Search_page(SearchStep.java:16)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-	at TestRunner.feature(TestRunner.java:31)
-... Removed 62 stack frames
-</div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Feature)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-failed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestRunner</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="feature(Login Profile)">
@@ -366,16 +212,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
 data.setCell(0, 2, 'TestRunner')
-data.setCell(0, 3, 53616);
+data.setCell(0, 3, 12877);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'feature')
 data.setCell(1, 2, 'TestRunner')
-data.setCell(1, 3, 350);
+data.setCell(1, 3, 340);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 53 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -408,17 +254,15 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">feature(Login Profile)</span>
-                <span class="method-start">1150 ms</span>
+                <span class="method-start">1191 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">feature(Google Search)</span>
-                <span class="method-start">1500 ms</span>
+                <span class="method-start">1531 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">55136 ms</span>
+                <span class="method-start">14409 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

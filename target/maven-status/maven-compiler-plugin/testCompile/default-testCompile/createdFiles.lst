@@ -1,3 +1,4 @@
 stepdefinition\LoginStepdefs.class
+stepdefinition\SearchStep.class
 stepdefinition\LoginSteps.class
 TestRunner.class
