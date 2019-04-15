@@ -43,7 +43,7 @@ formatter.match({
   "location": "LoginStepdefs.iAmOnThePageOnURL(String,String)"
 });
 formatter.result({
-  "duration": 295611873,
+  "duration": 253256662,
   "status": "passed"
 });
 formatter.match({
@@ -56,7 +56,7 @@ formatter.match({
   "location": "LoginStepdefs.iShouldSeeMessage(String)"
 });
 formatter.result({
-  "duration": 177484,
+  "duration": 267252,
   "status": "passed"
 });
 formatter.scenario({
@@ -111,7 +111,7 @@ formatter.match({
   "location": "LoginStepdefs.iFillInWith(String,String)"
 });
 formatter.result({
-  "duration": 290849,
+  "duration": 219547,
   "status": "passed"
 });
 formatter.match({
@@ -128,7 +128,7 @@ formatter.match({
   "location": "LoginStepdefs.iFillInWith(String,String)"
 });
 formatter.result({
-  "duration": 233910,
+  "duration": 352404,
   "status": "passed"
 });
 formatter.match({
@@ -141,7 +141,7 @@ formatter.match({
   "location": "LoginStepdefs.iClickOnTheButton(String)"
 });
 formatter.result({
-  "duration": 343171,
+  "duration": 340606,
   "status": "passed"
 });
 formatter.match({
@@ -158,7 +158,7 @@ formatter.match({
   "location": "LoginStepdefs.iAmOnThePageOnURL(String,String)"
 });
 formatter.result({
-  "duration": 319062,
+  "duration": 402162,
   "status": "passed"
 });
 formatter.match({
@@ -171,7 +171,7 @@ formatter.match({
   "location": "LoginStepdefs.iShouldSeeMessage(String)"
 });
 formatter.result({
-  "duration": 286232,
+  "duration": 505780,
   "status": "passed"
 });
 formatter.match({
@@ -184,7 +184,7 @@ formatter.match({
   "location": "LoginStepdefs.iShouldSeeTheButton(String)"
 });
 formatter.result({
-  "duration": 259558,
+  "duration": 262124,
   "status": "passed"
 });
 formatter.uri("search.feature");
@@ -227,7 +227,7 @@ formatter.match({
   "location": "SearchStep.i_an_on_Google_Search_page()"
 });
 formatter.result({
-  "duration": 25467729865,
+  "duration": 36099303655,
   "status": "passed"
 });
 formatter.match({
@@ -240,21 +240,21 @@ formatter.match({
   "location": "SearchStep.i_enter_a_search_term(String)"
 });
 formatter.result({
-  "duration": 8850255839,
+  "duration": 26666843981,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchStep.i_click_on_the_search_button()"
 });
 formatter.result({
-  "duration": 41550,
+  "duration": 43089,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchStep.i_should_be_shown_a_list_of_results_relating_to_my_search_term()"
 });
 formatter.result({
-  "duration": 39498,
+  "duration": 42576,
   "status": "passed"
 });
 });

@@ -19,7 +19,7 @@ public class SearchStep {
     @When("^I enter a search term \"([^\"]*)\"$")
     public void i_enter_a_search_term(String arg1) throws Throwable {
        WebElement element = driver.findElement(By.name("q"));
-       element.sendKeys("Cucumber");
+       element.sendKeys("Cucumber Tutorial");
        element.submit();
     }
 
